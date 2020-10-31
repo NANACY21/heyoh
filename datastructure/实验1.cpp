@@ -174,12 +174,13 @@ void welcome(SqList &L,int e,int k)
             exit(0);
     }
 }
-main()
+int main()
 {
     SqList L;
     int n,e,k;
     SXB_init(L);//顺序表初始化
     SXB_create(L,n);//创建顺序表
     SXB_display(L);//显示顺序表
-    welcome(L,e,k);
+    welcome(L, e, k);
+    return 0;
 }
