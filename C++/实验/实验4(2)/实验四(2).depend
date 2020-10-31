@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1491465548 source:c:\users\李箎\desktop\大学\c++\c++代码\实验四(2)\main.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+
+1491467783 c:\users\李箎\desktop\大学\c++\c++代码\实验四(2)\people.h
+	"DATE.h"
+
+1491466618 c:\users\李箎\desktop\大学\c++\c++代码\实验四(2)\date.h
+	<iostream>
+	<string.h>
+
+1491466812 source:c:\users\李箎\desktop\大学\c++\c++代码\实验四(2)\date.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+
+1491467945 source:c:\users\李箎\desktop\大学\c++\c++代码\实验四(2)\people.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+
+1491466812 source:c:\users\李箎\desktop\大学\c++\c++代码\实验\实验四(2)\date.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+
+1491466618 c:\users\李箎\desktop\大学\c++\c++代码\实验\实验四(2)\date.h
+	<iostream>
+	<string.h>
+
+1491465548 source:c:\users\李箎\desktop\大学\c++\c++代码\实验\实验四(2)\main.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+
+1491467783 c:\users\李箎\desktop\大学\c++\c++代码\实验\实验四(2)\people.h
+	"DATE.h"
+
+1491467945 source:c:\users\李箎\desktop\大学\c++\c++代码\实验\实验四(2)\people.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+
+1491466812 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验4(2)\date.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+
+1492134300 c:\users\李箎\desktop\大学\c++\代码\实验\实验4(2)\date.h
+
+1492134314 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验4(2)\main.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+
+1492134300 c:\users\李箎\desktop\大学\c++\代码\实验\实验4(2)\people.h
+	"DATE.h"
+
+1492134300 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验4(2)\people.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+

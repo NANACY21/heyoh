@@ -1,0 +1,181 @@
+# depslib dependency file v1.0
+1492430366 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\date.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+
+1492136778 c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\date.h
+
+1492137551 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\people.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+	"PEOPLE.h"
+
+1492136823 c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\people.h
+	"DATE.h"
+
+1492430211 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\main.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+	"PEOPLE.h"
+	"STUDENT.h"
+	"TEACHER.h"
+	"GRADUATE.h"
+
+1492137168 c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\student.h
+	"PEOPLE.h"
+	"DATE.h"
+
+1492416221 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\student.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+	"STUDENT.h"
+
+1492137551 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\teacher.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+	"TEACHER.h"
+
+1492137168 c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\teacher.h
+	"PEOPLE.h"
+	"DATE.h"
+
+1492137551 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\graduate.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+	"PEOPLE.h"
+	"STUDENT.h"
+	"GRADUATE.h"
+
+1492137251 c:\users\李箎\desktop\大学\c++\代码\实验\实验5(4)\graduate.h
+	"PEOPLE.h"
+	"DATE.h"
+	"STUDENT.h"
+
+1492430366 source:c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\date.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+
+1492136778 c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\date.h
+
+1494077363 source:c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\graduate.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+	"PEOPLE.h"
+	"STUDENT.h"
+	"GRADUATE.h"
+
+1494078731 c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\people.h
+	"DATE.h"
+
+1492137168 c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\student.h
+	"PEOPLE.h"
+	"DATE.h"
+
+1492137251 c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\graduate.h
+	"PEOPLE.h"
+	"DATE.h"
+	"STUDENT.h"
+
+1492430211 source:c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\main.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+	"PEOPLE.h"
+	"STUDENT.h"
+	"TEACHER.h"
+	"GRADUATE.h"
+
+1492137168 c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\teacher.h
+	"PEOPLE.h"
+	"DATE.h"
+
+1492137551 source:c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\people.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+	"PEOPLE.h"
+
+1492416221 source:c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\student.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+	"STUDENT.h"
+
+1492137551 source:c:\users\李箎\desktop\大学\大一(下)\c++\代码\实验\实验5(4)\teacher.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+	"TEACHER.h"
+
+1492430366 source:e:\大学\大一(下)\c++\代码\实验\实验5(4)\date.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+
+1492136778 e:\大学\大一(下)\c++\代码\实验\实验5(4)\date.h
+
+1492430211 source:e:\大学\大一(下)\c++\代码\实验\实验5(4)\main.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+	"PEOPLE.h"
+	"STUDENT.h"
+	"TEACHER.h"
+	"GRADUATE.h"
+
+1494078731 e:\大学\大一(下)\c++\代码\实验\实验5(4)\people.h
+	"DATE.h"
+
+1492137168 e:\大学\大一(下)\c++\代码\实验\实验5(4)\student.h
+	"PEOPLE.h"
+	"DATE.h"
+
+1492137168 e:\大学\大一(下)\c++\代码\实验\实验5(4)\teacher.h
+	"PEOPLE.h"
+	"DATE.h"
+
+1492137251 e:\大学\大一(下)\c++\代码\实验\实验5(4)\graduate.h
+	"PEOPLE.h"
+	"DATE.h"
+	"STUDENT.h"
+
+1492137551 source:e:\大学\大一(下)\c++\代码\实验\实验5(4)\people.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+	"PEOPLE.h"
+
+1492416221 source:e:\大学\大一(下)\c++\代码\实验\实验5(4)\student.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+	"STUDENT.h"
+
+1492137551 source:e:\大学\大一(下)\c++\代码\实验\实验5(4)\teacher.cpp
+	<iostream>
+	<string.h>
+	"PEOPLE.h"
+	"DATE.h"
+	"TEACHER.h"
+
+1494656675 source:e:\大学\大一(下)\c++\代码\实验\实验5(4)\graduate.cpp
+	<iostream>
+	<string.h>
+	"DATE.h"
+	"PEOPLE.h"
+	"STUDENT.h"
+	"GRADUATE.h"
+

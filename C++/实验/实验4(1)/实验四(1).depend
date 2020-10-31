@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1491388757 source:d:\实验四(1)\client.cpp
+	"client.h"
+	<iostream>
+
+1491388757 d:\实验四(1)\client.h
+
+1491388340 source:d:\实验四(1)\main.cpp
+	<iostream>
+	"client.h"
+
+1491471223 source:c:\users\李箎\desktop\大学\c++\c++代码\实验四(1)\client.cpp
+	"Client.h"
+	<iostream>
+
+1491471223 c:\users\李箎\desktop\大学\c++\c++代码\实验四(1)\client.h
+
+1491471321 source:c:\users\李箎\desktop\大学\c++\c++代码\实验四(1)\main.cpp
+	<iostream>
+	"Client.h"
+
+1491471223 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验4(1)\client.cpp
+	"Client.h"
+	<iostream>
+
+1491471223 c:\users\李箎\desktop\大学\c++\代码\实验\实验4(1)\client.h
+
+1491471321 source:c:\users\李箎\desktop\大学\c++\代码\实验\实验4(1)\main.cpp
+	<iostream>
+	"Client.h"
+
