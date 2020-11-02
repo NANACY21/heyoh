@@ -3,10 +3,10 @@ using namespace std;
 
 int str_len(char *str);
 
-int main(){
+int main() {
     char *str = new char[100];
-    cin>>str;
-    cout<<str_len(str);
+    cin >> str;
+    cout << str_len(str);
     delete str;
     return 0;
 }
