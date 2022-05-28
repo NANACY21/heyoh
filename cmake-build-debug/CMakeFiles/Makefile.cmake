@@ -53,6 +53,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/heyoh.dir/DependInfo.cmake"
   "CMakeFiles/stackqueue.dir/DependInfo.cmake"
+  "CMakeFiles/实验6.dir/DependInfo.cmake"
+  "CMakeFiles/vectorheap.dir/DependInfo.cmake"
+  "CMakeFiles/algorithm.dir/DependInfo.cmake"
   )

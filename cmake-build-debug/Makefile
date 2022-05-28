@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = D:\allproject\personal\heyoh\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +85,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,19 +130,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named heyoh
-
-# Build rule for target.
-heyoh: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 heyoh
-.PHONY : heyoh
-
-# fast build rule for target.
-heyoh/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\heyoh.dir\build.make CMakeFiles/heyoh.dir/build
-.PHONY : heyoh/fast
-
-#=============================================================================
 # Target rules for targets named stackqueue
 
 # Build rule for target.
@@ -155,13 +142,78 @@ stackqueue/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/build
 .PHONY : stackqueue/fast
 
+#=============================================================================
+# Target rules for targets named 实验6
+
+# Build rule for target.
+实验6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 实验6
+.PHONY : 实验6
+
+# fast build rule for target.
+实验6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\实验6.dir\build.make CMakeFiles/实验6.dir/build
+.PHONY : 实验6/fast
+
+#=============================================================================
+# Target rules for targets named vectorheap
+
+# Build rule for target.
+vectorheap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vectorheap
+.PHONY : vectorheap
+
+# fast build rule for target.
+vectorheap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectorheap.dir\build.make CMakeFiles/vectorheap.dir/build
+.PHONY : vectorheap/fast
+
+#=============================================================================
+# Target rules for targets named algorithm
+
+# Build rule for target.
+algorithm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm
+.PHONY : algorithm
+
+# fast build rule for target.
+algorithm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/build
+.PHONY : algorithm/fast
+
+algorithm/algorithm.obj: algorithm/algorithm.cpp.obj
+
+.PHONY : algorithm/algorithm.obj
+
+# target to build an object file
+algorithm/algorithm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/algorithm/algorithm.cpp.obj
+.PHONY : algorithm/algorithm.cpp.obj
+
+algorithm/algorithm.i: algorithm/algorithm.cpp.i
+
+.PHONY : algorithm/algorithm.i
+
+# target to preprocess a source file
+algorithm/algorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/algorithm/algorithm.cpp.i
+.PHONY : algorithm/algorithm.cpp.i
+
+algorithm/algorithm.s: algorithm/algorithm.cpp.s
+
+.PHONY : algorithm/algorithm.s
+
+# target to generate assembly for a file
+algorithm/algorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm.dir\build.make CMakeFiles/algorithm.dir/algorithm/algorithm.cpp.s
+.PHONY : algorithm/algorithm.cpp.s
+
 algorithm/stackqueue.obj: algorithm/stackqueue.cpp.obj
 
 .PHONY : algorithm/stackqueue.obj
 
 # target to build an object file
 algorithm/stackqueue.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\heyoh.dir\build.make CMakeFiles/heyoh.dir/algorithm/stackqueue.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/algorithm/stackqueue.cpp.obj
 .PHONY : algorithm/stackqueue.cpp.obj
 
@@ -171,7 +223,6 @@ algorithm/stackqueue.i: algorithm/stackqueue.cpp.i
 
 # target to preprocess a source file
 algorithm/stackqueue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\heyoh.dir\build.make CMakeFiles/heyoh.dir/algorithm/stackqueue.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/algorithm/stackqueue.cpp.i
 .PHONY : algorithm/stackqueue.cpp.i
 
@@ -181,9 +232,62 @@ algorithm/stackqueue.s: algorithm/stackqueue.cpp.s
 
 # target to generate assembly for a file
 algorithm/stackqueue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\heyoh.dir\build.make CMakeFiles/heyoh.dir/algorithm/stackqueue.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/algorithm/stackqueue.cpp.s
 .PHONY : algorithm/stackqueue.cpp.s
+
+algorithm/vectorheap.obj: algorithm/vectorheap.cpp.obj
+
+.PHONY : algorithm/vectorheap.obj
+
+# target to build an object file
+algorithm/vectorheap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectorheap.dir\build.make CMakeFiles/vectorheap.dir/algorithm/vectorheap.cpp.obj
+.PHONY : algorithm/vectorheap.cpp.obj
+
+algorithm/vectorheap.i: algorithm/vectorheap.cpp.i
+
+.PHONY : algorithm/vectorheap.i
+
+# target to preprocess a source file
+algorithm/vectorheap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectorheap.dir\build.make CMakeFiles/vectorheap.dir/algorithm/vectorheap.cpp.i
+.PHONY : algorithm/vectorheap.cpp.i
+
+algorithm/vectorheap.s: algorithm/vectorheap.cpp.s
+
+.PHONY : algorithm/vectorheap.s
+
+# target to generate assembly for a file
+algorithm/vectorheap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectorheap.dir\build.make CMakeFiles/vectorheap.dir/algorithm/vectorheap.cpp.s
+.PHONY : algorithm/vectorheap.cpp.s
+
+datastructure/实验6.obj: datastructure/实验6.cpp.obj
+
+.PHONY : datastructure/实验6.obj
+
+# target to build an object file
+datastructure/实验6.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\实验6.dir\build.make CMakeFiles/实验6.dir/datastructure/实验6.cpp.obj
+.PHONY : datastructure/实验6.cpp.obj
+
+datastructure/实验6.i: datastructure/实验6.cpp.i
+
+.PHONY : datastructure/实验6.i
+
+# target to preprocess a source file
+datastructure/实验6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\实验6.dir\build.make CMakeFiles/实验6.dir/datastructure/实验6.cpp.i
+.PHONY : datastructure/实验6.cpp.i
+
+datastructure/实验6.s: datastructure/实验6.cpp.s
+
+.PHONY : datastructure/实验6.s
+
+# target to generate assembly for a file
+datastructure/实验6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\实验6.dir\build.make CMakeFiles/实验6.dir/datastructure/实验6.cpp.s
+.PHONY : datastructure/实验6.cpp.s
 
 # Help Target
 help:
@@ -193,11 +297,22 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... heyoh
+	@echo ... algorithm
 	@echo ... stackqueue
+	@echo ... vectorheap
+	@echo ... 实验6
+	@echo ... algorithm/algorithm.obj
+	@echo ... algorithm/algorithm.i
+	@echo ... algorithm/algorithm.s
 	@echo ... algorithm/stackqueue.obj
 	@echo ... algorithm/stackqueue.i
 	@echo ... algorithm/stackqueue.s
+	@echo ... algorithm/vectorheap.obj
+	@echo ... algorithm/vectorheap.i
+	@echo ... algorithm/vectorheap.s
+	@echo ... datastructure/实验6.obj
+	@echo ... datastructure/实验6.i
+	@echo ... datastructure/实验6.s
 .PHONY : help
 
 
